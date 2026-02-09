@@ -9,9 +9,10 @@ CREATE TABLE IF NOT EXISTS employee (
     bonus DECIMAL(10, 2) NOT NULL
 );
 
--- مثال لإدخال بيانات
+
 INSERT INTO employee (Employee_name, , Employee_email, salary, bonus)
 VALUES 
 ('Alwaleed', 'ali.qahtani@example.com', 25000,00, 5000),
 ('Fahad','sara.harbi@example.com',15000.00, 3000);
+
 
