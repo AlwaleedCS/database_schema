@@ -1,5 +1,5 @@
 CREATE DATABASE IF NOT EXISTS company;
-USE companغ;
+USE company;
 
 CREATE TABLE IF NOT EXISTS employee (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -14,3 +14,4 @@ INSERT INTO employee (Employee_name, , Employee_email, salary, bonus)
 VALUES 
 ('Alwaleed', 'ali.qahtani@example.com', 25000,00, 5000),
 ('Fahad','sara.harbi@example.com',15000.00, 3000);
+
